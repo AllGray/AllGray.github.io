@@ -9,7 +9,7 @@ language_tabs:
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='https://github.com/AllGray/slate'>Documentation Powered by AllGray</a>
 
 includes:
   - errors
@@ -19,26 +19,26 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Welcome to the AllGray API! You can use our API to access AllGray API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
 We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
 
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+This example API documentation page was created with [Slate](https://github.com/AllGray/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
 # Authentication
 
 > To authorize, use this code:
 
 ```ruby
-require 'kittn'
+require 'AllGray'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = AllGray::APIClient.authorize!('meowmeowmeow')
 ```
 
 ```python
-import kittn
+import AllGray
 
-api = kittn.authorize('meowmeowmeow')
+api = AllGray.authorize('meowmeowmeow')
 ```
 
 ```shell
@@ -48,16 +48,16 @@ curl "api_endpoint_here"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const AllGray = require('AllGray');
 
-let api = kittn.authorize('meowmeowmeow');
+let api = AllGray.authorize('meowmeowmeow');
 ```
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+AllGray uses API keys to allow access to the API. You can register a new AllGray API key at our [developer portal](http://example.com/developers).
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+AllGray expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
 `Authorization: meowmeowmeow`
 
@@ -65,34 +65,34 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# AllGray
 
-## Get All Kittens
+## The AllGray Example
 
 ```ruby
-require 'kittn'
+require 'AllGray'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
+api = AllGray::APIClient.authorize!('meowmeowmeow')
+api.AllGray.get
 ```
 
 ```python
-import kittn
+import AllGray
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
+api = AllGray.authorize('meowmeowmeow')
+api.AllGray.get()
 ```
 
 ```shell
-curl "http://example.com/api/kittens"
+curl "http://example.com/api/AllGray"
   -H "Authorization: meowmeowmeow"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const AllGray = require('AllGray');
 
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
+let api = AllGray.authorize('meowmeowmeow');
+let AllGray = api.AllGray.get();
 ```
 
 > The above command returns JSON structured like this:
@@ -116,11 +116,11 @@ let kittens = api.kittens.get();
 ]
 ```
 
-This endpoint retrieves all kittens.
+This endpoint retrieves all AllGrays.
 
 ### HTTP Request
 
-`GET http://example.com/api/kittens`
+`GET http://example.com/api/AllGray`
 
 ### Query Parameters
 
@@ -136,17 +136,17 @@ Remember — a happy kitten is an authenticated kitten!
 ## Get a Specific Kitten
 
 ```ruby
-require 'kittn'
+require 'AllGray'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
+api = AllGray::APIClient.authorize!('meowmeowmeow')
+api.AllGray.get(2)
 ```
 
 ```python
-import kittn
+import AllGray
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
+api = AllGray.authorize('meowmeowmeow')
+api.AllGray.get(2)
 ```
 
 ```shell
@@ -155,10 +155,10 @@ curl "http://example.com/api/kittens/2"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const AllGray = require('AllGray');
 
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.get(2);
+let api = AllGray.authorize('meowmeowmeow');
+let max = api.AllGray.get(2);
 ```
 
 > The above command returns JSON structured like this:
