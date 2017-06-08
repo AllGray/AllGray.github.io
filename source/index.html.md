@@ -33,7 +33,7 @@ Make video games, explore new hardware solutions, learn from numerous tutorials 
 
 ![image](https://raw.githubusercontent.com/AllGray/slate/master/images/4.jpg)
 
-![Video](https://youtu.be/roSKvLbrUek)
+[MAKERbuino - a DIY game console - Video](https://youtu.be/roSKvLbrUek)
 
 This is the Official MAKERbuino Kit Build Guide.
 
