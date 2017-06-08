@@ -1,5 +1,7 @@
 sudo: false
 
+rightHandPanel: false
+
 language: ruby
 
 rvm:
