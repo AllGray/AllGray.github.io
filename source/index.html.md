@@ -21,7 +21,7 @@ toc_footers:
 MAKERbuino is a DIY gaming platform suited for makers. It’s based on Arduino and compatible with Gamebuino. MAKERbuino project encourages and helps people learn STEM (Science, Technology, Engineering and Mathematics) in a fun and interesting way. MAKERbuino allows you to develop your hardware and software skills. Make video games, explore new hardware solutions, learn from numerous tutorials and share your work with the community.
 
 ![image](https://raw.githubusercontent.com/AllGray/slate/master/images/4.jpg)
-https://youtu.be/roSKvLbrUek
+[[embed url=https://youtu.be/roSKvLbrUek]]
 
 This is the official MAKERbuino kit build guide.
 
@@ -74,24 +74,24 @@ Also, this diagram of the main parts of the MAKERbuino console is super useful:
 
 Label | Component Name | Minimal Quantity
 --------- | ------- | -----------
--	| MAKERbuino PCB | 1
--	| laser cut acrylic casing (consists of 3 pieces)	| 1
--	| M3 nylon screws	| 4
--	| M3 nylon nuts	| 4
--	| M3 6mm nylon hex distancer	| 8
--	| M2 nylon (or metal) screws	| 4
--	| M2 nylon (or metal) nuts	| 4
--	| 128MB Micro SD card + SD adapter	| 1
--	| SD socket	| 1
--	| 8ohm 0.5W speaker - 28mm diameter	| 1
--	| Li-Po battery (650mAh, single cell - 3.7V) with male JST connector	| 1
--	| female JST battery connector	| 1
--	| USB to RS232 adapter board (serial programmer)	| 1
+NO LABEL	| MAKERbuino PCB | 1
+NO LABEL	| laser cut acrylic casing (consists of 3 pieces)	| 1
+NO LABEL	| M3 nylon screws	| 4
+NO LABEL	| M3 nylon nuts	| 4
+NO LABEL	| M3 6mm nylon hex distancer	| 8
+NO LABEL	| M2 nylon (or metal) screws	| 4
+NO LABEL	| M2 nylon (or metal) nuts	| 4
+NO LABEL	| 128MB Micro SD card + SD adapter	| 1
+NO LABEL	| SD socket	| 1
+NO LABEL	| 8ohm 0.5W speaker - 28mm diameter	| 1
+NO LABEL	| Li-Po battery (650mAh, single cell - 3.7V) with male JST connector	| 1
+NO LABEL	| female JST battery connector	| 1
+NO LABEL	| USB to RS232 adapter board (serial programmer)	| 1
 U1	| ATmega328P-PU microcontroller	| 1
--	| 28 pin IC socket (for the ATmega328P)	| 1
+NO LABEL	| 28 pin IC socket (for the ATmega328P)	| 1
 LCD	| Nokia 5110 LCD breakout board	| 1
--	| female header socket (for connecting the screen)	| 1
--	| TP4056 Li-Po battery charger board	| 1
+NO LABEL	| female header socket (for connecting the screen)	| 1
+NO LABEL	| TP4056 Li-Po battery charger board	| 1
 IC2	| 3.3V voltage regulator (MCP1702-3302E in TO-92 package)	| 1
 T1	| 2n2222 general purpose NPN transistor	| 1
 Q1	| 16MHz crystal	| 1
@@ -111,7 +111,7 @@ R2, R3	| 10Kohm resistor	| 2
 R4, R5	| 4.7kohm resistor	| 2
 R6	| 100ohm resistor	| 1
 X1	| 3.5mm headphone connector socket	| 1
--	| some thin insulated copper wire (standard and solid core wire)	| 1
+NO LABEL	| some thin insulated copper wire (standard and solid core wire)	| 1
 
 <aside class="warning">Important: we tend to place some extra spare components in your MAKERbuino kit. Quantity listed in the above table is the absolute minimum of components required for your MAKERbuino to work, you'll probably get some extra.</aside>
 
