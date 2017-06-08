@@ -67,7 +67,7 @@ slate/images/6.jpg
 
 
 List of included components
-label | 	component name | (minimal)quantity
+label | component name | (minimal)quantity
 -------------- | -------------- | --------------
 -	| MAKERbuino PCB | 1
 -	| laser cut acrylic casing (consists of 3 pieces)	| 1
