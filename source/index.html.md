@@ -33,7 +33,7 @@ Make video games, explore new hardware solutions, learn from numerous tutorials 
 
 ![image](https://raw.githubusercontent.com/AllGray/slate/master/images/4.jpg)
 
-![Video](embed url=https://youtu.be/roSKvLbrUek)
+![Video](https://youtu.be/roSKvLbrUek)
 
 This is the Official MAKERbuino Kit Build Guide.
 
