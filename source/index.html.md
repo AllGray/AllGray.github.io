@@ -2,7 +2,7 @@
 title: MAKERbuino Build Guide
 
 toc_footers:
-  - <a href='Sign Up at https://community.makerbuino.com'>for more information</a>
+  - <a href='https://community.makerbuino.com'>Sign Up at our community for more information</a>
   - <a href='https://github.com/allgray'>Documentation Powered by Slate</a>
   
 
