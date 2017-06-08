@@ -6,7 +6,7 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
   - <a href='https://github.com/allgray'>Documentation converted by Mathias "AllGray" Thur</a>
   
-
+---
 
 # Introduction
 
@@ -71,8 +71,8 @@ slate/images/6.jpg
 
 
 List of included components
-label | component name | (minimal)quantity
--------------- | -------------- | --------------
+Label | Component Name | Minimal Quantity
+--------- | ------- | -----------
 NO LABEL	| MAKERbuino PCB | 1
 NO LABEL	| laser cut acrylic casing (consists of 3 pieces)	| 1
 NO LABEL	| M3 nylon screws	| 4
