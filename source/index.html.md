@@ -21,6 +21,7 @@ toc_footers:
 MAKERbuino is a DIY gaming platform suited for makers. It’s based on Arduino and compatible with Gamebuino. MAKERbuino project encourages and helps people learn STEM (Science, Technology, Engineering and Mathematics) in a fun and interesting way. MAKERbuino allows you to develop your hardware and software skills. Make video games, explore new hardware solutions, learn from numerous tutorials and share your work with the community.
 
 ![image](https://raw.githubusercontent.com/AllGray/slate/master/images/4.jpg)
+
 [[embed url=https://youtu.be/roSKvLbrUek]]
 
 This is the official MAKERbuino kit build guide.
