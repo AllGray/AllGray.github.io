@@ -40,6 +40,7 @@ Our estimation is that an 11 year-old kid should be able to assemble the MAKERbu
 Estimated build time: **2 hours 30 minutes.** Build time varies and depends on the skills of the person and if the person has ever soldered before.
 
 MAKERbuino was made with purpose of bringing STEM (Science, Technology, Engineering and Mathematics) to people in a fun and interesting way. 
+
 Despite that, it is not the best entry level kit and if you never soldered before you should think about doing some preparatory practice or soldering a simpler kit.
 
 # Required skills
