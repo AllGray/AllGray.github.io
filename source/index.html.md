@@ -20,7 +20,7 @@ toc_footers:
 
 MAKERbuino is a DIY gaming platform suited for makers. It’s based on Arduino and compatible with Gamebuino. MAKERbuino project encourages and helps people learn STEM (Science, Technology, Engineering and Mathematics) in a fun and interesting way. MAKERbuino allows you to develop your hardware and software skills. Make video games, explore new hardware solutions, learn from numerous tutorials and share your work with the community.
 
-slate/images/4.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/4.jpg)
 https://youtu.be/roSKvLbrUek
 
 This is the official MAKERbuino kit build guide.
@@ -56,7 +56,7 @@ MAKERbuino’s main goal to educate and motivate you to learn something new or b
 * how to extend beyond MAKERbuino’s capabilities by adding various expansion modules
 
 # What’s in the box?
-slate/images/5.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/5.jpg)
 * note: box art design might vary depending on when you bought your kit - the old box is displayed in this picture, kits bought in 2017 have an updated box art
 
 You managed to get your very own basic MAKERbuino kit! Well done and thanks for supporting the project and the “STEM through fun” initiative. First of all, follow the list of included components and the text below and make sure that you have all the required components laid out on your table and ready for soldering.
@@ -67,10 +67,11 @@ Click here to view the schematics: [MAKERbuino-schematic.png](https://github.com
 
 Also, this diagram of the main parts of the MAKERbuino console is super useful:
 
-slate/images/6.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/6.jpg)
 
 
-List of included components
+### List of included components
+
 Label | Component Name | Minimal Quantity
 --------- | ------- | -----------
 NO LABEL	| MAKERbuino PCB | 1
@@ -114,13 +115,13 @@ NO LABEL	| some thin insulated copper wire (standard and solid core wire)	| 1
 
 <aside class="warning">Important: we tend to place some extra spare components in your MAKERbuino kit. Quantity listed in the above table is the absolute minimum of components required for your MAKERbuino to work, you'll probably get some extra.</aside>
 
-slate/images/7.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/7.jpg)
 **If you’re not sure what every of these components looks like, don’t worry. In the following section we’ll analyze the components and their purpose.**
 
 # MAKERbuino PCB
 
-slate/images/8.jpg
-slate/images/9.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/8.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/9.jpg)
 
 PCB stands for printed circuit board. Basically, this is a board with some copper traces and some other components like protective paint and insulating material. Copper layers of the board form traces that connect various MAKERbuino’s electronic components (e.g. they connect the microcontroller to the screen) so that they can work together as an electronic device.
 
@@ -128,7 +129,7 @@ PCB stands for printed circuit board. Basically, this is a board with some coppe
 
 ## Laser cut acrylic casing
 
-slate/images/10.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/10.jpg)
 
 MAKERbuino’s circuitry is protected by a casing made out of laser cut plastic (they're made on a CNC laser cutting machine). The casing consists of 3 pieces (see the picture). One piece is used to protect the front (top) side of your MAKERbuino device and the other two pieces protect MAKERbuino's back. Everything is stacked one on another using nuts, bolts and plastic spacers. This style of casings is called "the sandwich design".
 
@@ -136,22 +137,22 @@ We'll explain how to assemble the casing at the end of this build guide.
 
 ## nuts, bolts and spacers
 
-slat/images/11.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/11.jpg)
 These basic mechanical components are needed at the end of MAKERbuino assembly process for fixating the circuit board to the casing. M3 or M2 in the name of the screws indicates that the screw’s shaft’s diameter is 3 mm or 2 mm. Depeding on the verion, you might get metal screws instead of plastic ones (latest versions of the kit come with plastic screws made out of nylon).
 
 ## 128MB SD card with an SD adapter
 
-slate/images/12.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/12.jpg)
 The included SD card is used for storing games, programs and other useful data on it (game graphics, music etc.). Thanks to this card, you can load multiple on your MAKERbuino. It comes preloaded with lots of fun games downloaded from the games gallery on www.gamebuino.com so that you can try it out right after you assemble it. You might be wondering, why is the SD card’s capacity mere 128 MB? This is an 8-bit gameboy-like gaming device and programs and games for it are approximately 30 kB. 128 MB of space will be more than enough for storing plenty of games, programs and useful info.
 <aside class="notice">some older versions of the kit were sold with larger SD cards (1GB or 512MB)</aside>
 
 ## SD socket
-slate/images/13.png
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/13.png)
 
 The SD socket is the only surface mount component in the whole device. Don’t let the look of it discourage you, SD socket’s leads are so big that anyone can solder it with a tiny bit of patience. The socket is soldered to the back side of the PCB and you insert your precious SD card inside.
 
 ## Speaker
-slate/images/14.png
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/14.png)
 
 This neat little speaker fits at the back side of the device. It has a special place in the back of the casing. It plays a crucial role in producing all the beeps , boops and crazy chiptunes you’ll compose in your very own games.
 
@@ -159,32 +160,32 @@ This neat little speaker fits at the back side of the device. It has a special p
 
 ## 650 mAh Li-Po battery & JST connector
 
-slate/images/15.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/15.jpg)
 
 The rechargeable battery serves as MAKERbuino’s main power supply. 650mAh is more than enough for several hours of intense gaming and powering all sorts of power-hungry expansion modules (like GPS receivers, motors, wifi modules, etc.). In case you didn’t know, “Li-Po” in the name of the battery indicates its structure and what materials it uses to store electrical energy (Li-Po stands for Lithium Polymer). It comes with the male JST power connector that is then connected to the female JST connector soldered directly to the board.
 
 ## USB to RS232 serial UART adapter
 
-slate/images/16.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/16.jpg)
 
 This board is connected to MAKERbuino’s serial port (top left black female angle connector). It allows you to program your MAKERbuino directly from your computer and send all sorts of useful data from the computer to the MAKERbuino and vice versa.
 <aside class="warning">Important: Your MAKERbuino kit might come with the blue or red version of this adapter depending on when you bought your kit. Latest kit revision comes with the red adapter. The two serial adapter boards do the same thing. There's more info on how to use this board later in the guide.</aside>
 
 ## ATmega328P-PU microcontroller & ATmega’s 28 pin socket
 
-slate/images/17.png
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/17.png)
 
 The ATmega microcomputer (aka. microcontroller) is the brain of the device. CPU, RAM memory, flash memory and almost all parts needed for executing programs and games and doing all the smart work. Basically, this is a computer in a chip. ATmega328’s astonishing 2kB of RAM and an 8-bit CPU at 16MHz of frequency. will bring out the nostalgia and provide you with the authentic old school retro experience. It comes with a special dedicated 28 pin socket for easy microcomputer replacement.
 
 ## Nokia 5110 LCD breakout board
-slate/images/18.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/18.jpg)
 
 The screen module is an LCD screen on a breakout PCB. LCD stands for liquid crystal display. This is a screen that is controlled by the main ATmega microcomputer. It’s a graphical display so you can manipulate every pixel’s color with a program in the microcomputer. The complete module is stacked on the main MAKERbuino PCB. Newer versions of the MAKERbuino kit (version “0.4 beta” and newer) has this screen attached using headers so that you can easily replace the screen if it gets broken. Also, the screen has some magnificent features like high resolution (84x48 pixels monochrome), adjustable LED backlight and great visibility on direct sunlight (the display works in the same way as your calculator’s display - can be viewed without the backlight if there is enough light in the room).
 <aside class="warning">important: new version of the kit come with a female header socket which is first soldered to the PCB before connecting your screen. This way you can easily insert and remove the screen fro the board</aside>
 
 ## TP4056 Li-Po battery charger board
 
-slate/images/19.png
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/19.png)
 
 This module is stacked and soldered on the main MAKERbuino board. It contains the components needed for charging the rechargeable Li-Po battery. It’s main thing is the TP4056 charger integrated circuit (the little black chip on the board). It’s regulating voltage and current of electricity inputted by the USB port and feeding it to the Li-Po battery.
 
@@ -192,7 +193,7 @@ This module is stacked and soldered on the main MAKERbuino board. It contains th
 
 ## 3.3V voltage regulator
 
-slate/images/20.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/20.jpg)
 
 The voltage regulator is one of MAKERbuino’s most important parts. It regulates the voltage from the Li-Po battery to stable 3.3V. We need to do that because the battery’s 3.7V of electricity is just too much for MAKERbuino’s circuitry and would fry the SD card. Most people say, hey this is a transistor… no, this is not a transistor. This exact shape of this 3 tiny 3 leaded black component is called the TO-92 package and it looks the same as the 2n2222 transistor listed below.
 
@@ -200,13 +201,13 @@ The voltage regulator is one of MAKERbuino’s most important parts. It regulate
 
 ## 2n2222 general purpose NPN transistor
 
-slate/images/21.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/21.jpg)
 
 The general purpose transistor is used in the part of the MAKERbuino dedicated to producing sound. The transistor serves as an amplifier that drives the console’s speaker. As said when describing the regulator above, don’t let the shape of this component trick you, this is not a regulator (mind the tiny "2N2222" written on it!).
 
 ## 16MHz crystal
 
-slate/images/22.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/22.jpg)
 
 Inside this metallic package is a crystal used in the MAKERbuino’s microcomputer’s oscillator circuit. In other words, MAKERbuino’s neat 16MHz of CPU clock is possible thanks to this component. Standard digital clocks and watches work on the same principle.
 
@@ -214,14 +215,14 @@ Inside this metallic package is a crystal used in the MAKERbuino’s microcomput
 
 ## 1N4148 diode
 
-slate/images/23.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/23.jpg)
 
 This is a standard diode. It’s used in MAKERbuino’s sound circuit.
 <aside class="notice">this is NOT a light emitting diode (LED), it doesn’t light up, it’s used as an essential part of the sound’s circuit amplifier.</aside>
 
 ## 3 pin toggle switches
 
-slate/images/24.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/24.jpg)
 
 These 3 leaded standard switches are used for turning your MAKERbuino ON and OFF and muting the speaker. Important: You get two of these switches!
 
@@ -230,16 +231,16 @@ These 3 leaded standard switches are used for turning your MAKERbuino ON and OFF
 There are three different types of capacitors you have in your MAKERbuino kit
 
 1. 100uF electrolytic capacitors
-slate/images/25.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/25.jpg)
 
 2. 100nF ceramic capacitors
-slate/images/26.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/26.jpg)
 
 The tiny yellowish capacitor with 104 written on it is a 100nF capacitor used for filtration and in connection with serial programmer.
 * **Important: You need to have two of these capactirs**
 
 3. 22pF ceramic capacitors
-slate/images/27.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/27.jpg)
 
 These capacitors are used as a part of the 16MHz oscillating circuit along with the previously listed crystal. They look similar to the 100nF capacitors so don’t let that trick you. Recognize them by number 22 (symbolizing that they have the capacity of 22pF) written on their surface.
 
@@ -247,7 +248,7 @@ These capacitors are used as a part of the 16MHz oscillating circuit along with 
 
 ## pushbuttons & button caps
 
-slate/images/28.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/28.jpg)
 
 Nice and clicky big square pushbuttons are pretty self explanatory. They’re MAKERbuino’s essential input devices used for switching menus, changing programs, playing games… Button caps are just simply attached to the button’s top side and can be changed.
 
@@ -259,30 +260,30 @@ Nice and clicky big square pushbuttons are pretty self explanatory. They’re MA
 All these pins and headers are used for connecting various modules, expansions and programmers to your MAKERbuino board. There are four types of connectors included in the MAKERbuino kit
 
 1. 6 pin female header
-slate/images/29.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/29.jpg)
 
 This tiny black connector is used for connecting your MAKERbuino to the serial UART programmer board (important for programming the console).
 
 2. 2x3 male angle ICPS header
-slate/images/30.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/30.jpg)
 
 Used for connecting expansion modules and reprogramming the game console’s microcontroller over ICSP (in circuit system programming) protocol.
 
 3. KF2510 anti reverse angle headers (for i2c ports)
-slate/images/31.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/31.jpg)
 
 These yellowish connectors go to the top side of the device and are used for connecting expansion modules and other MAKERbuinos or Gamebuinos (multiplayer games!) They’re just like all other connectors but with a special anti-reverse function so that you can’t short circuit your game consoles when connecting them with the multiplayer link cable.
 
 <aside class="warning">Important: you need to have two of these</aside>
 
 4. 2x5 male angle extra breakout header
-slate/images/32.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/32.jpg)
 
 The 10 pin double row angle header is soldered to the rightmost part of the game console and is an extra option that gives you some extra useful pins for connecting hardware expansions.
 
 ## trim potentiometers
 
-slate/images/33.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/33.jpg)
 
 The tiny wheel potentiometers are very important for regulating the screen’s backlight and dimming the sound volume. The potentiometers have B102 written on their back indicating that they have 1Kohm of resistance (10 * 10^2 ohms).
 
@@ -292,7 +293,7 @@ The tiny wheel potentiometers are very important for regulating the screen’s b
 
 Standard passive two-terminal electronic components that implement electrical resistance as a circuit element. The resistors are used in MAKERbuino for all sorts of important tasks like adjusting signal levels and regulating current flow. There’s three types of resistors used in the MAKERbuino kit. Every resistor’s resistance is measured in ohms. You can determine the resistance of a resistor by using color code - reading a set of colored rings on the resistor. If you already don’t know all this stuff by heart, here is a useful table for using the resistor color code:
 
-slate/images/34.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/34.jpg)
 
 Resistors that you need to have: - 100 ohm resistor x1 This one is used when outputting sound to MAKERbuino’s headphone jack.
 
@@ -314,51 +315,51 @@ You’ve carefully read the previous section and checked that you have all the c
 
 ## soldering iron
 
-slate/images/35.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/35.jpg)
 
 Any entry level 'all-in-one' soldering iron that you might find at your local hardware store should work (recommended power - something around 30W). It’s a good idea to upgrade to a more expensive soldering station with temperature regulation if you plan to dive into the world of DIY electronics more thoroughly.
 
 ## solder
 
-slate/images/36.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/36.jpg)
 
 We highly advise buying a rosin core, 60/40 solder. This type of solder is usually preferred with the DIY electronics community for similar soldering projects. Be careful with buying solder, bad solder leads to lots of complications like bad solder joints and unwanted bridging.
 
 ## diagonal cutter pliers
 
-slate/images/37.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/37.jpg)
 
 You’ll need pliers like this to trim leads of soldered components and cut wires.
 
 ## desoldering vacuum tool (aka. solder sucker)
 
-slate/images/38.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/38.jpg)
 
 This tool is useful in cleaning up soldering mistakes
 
 ## hot glue gun OR some super glue OR some insulating tape
 
-slate/images/39.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/39.jpg)
 
-slate/images/40.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/40.jpg)
 
 You’ll need some sort of adhesive to fixate the battery and the speaker to the back plate. Our advice: a hot glue gun is the best choice here, but a tube of superglue or some insulating tape you can buy in a supermarket will also do the job.
 
 ## helping third hand with magnification - *optional*
 
-slate/images/41.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/41.jpg)
 
 This one is not absolutely necessary but will make your life (...and soldering) much easier.
 
 ## multimeter - *optional*
 
-slate/images/42.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/42.jpg)
 
 You can solder this kit without the multimeter but it will prove useful for testing some tricky connections and measuring supply voltage. Besides, if you plan to do DIY electronics, a basic multimeter that can measure voltage and continuity is a must-have.
 
 ## Solder wick - *optional*
 
-slate/images/43.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/43.jpg)
 
 It’s used along the desoldering vacuum tool to clean up soldering mistakes. This one would come particularly handy when soldering the SD socket on the MAKERbuino board.
 
@@ -370,7 +371,7 @@ Have you ever soldered before? If your answer is "yes", then you probably you'll
 
 [Adafruit's standard soldering tutorial](https://learn.adafruit.com/adafruit-guide-excellent-soldering?view=all) - A great and thorough video tutorial. An absolute must-read, even if you know how to solder. Make sure to check the "common soldering mistakes" section at the end.
 
-slate/images/44.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/44.jpg)
 * we do not own the copyright to this picture. [Picture Soruce](https://learn.adafruit.com/adafruit-guide-excellent-soldering?view=all)
 
 [Sprakfun's video soldering tutorial](https://www.youtube.com/watch?v=f95i88OSWB4) - Another well made how-to-solder video tutorial.
@@ -392,50 +393,50 @@ We divided the process of assembly in a few main steps and we’ll guide you thr
 
 only SMD component in the kit and probably the trickiest one to solder. Don’t let the word “SMD” discourage you, the socket is so big that a newbie can solder it with a 3$ soldering iron. Nevertheless, some extra patience is required. Find the SD socket, place it on the back side of the board where there is a big “SD SOCKET” text written on it.
 
-slate/images/45.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/45.jpg)
 
 Continue by soldering the four pads of the socket’s shielding.
 
-slate/images/46.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/46.jpg)
 
 When soldering the socket’s contacts, you DON’T have to solder the three rightmost pins because they are not used.
 
-slate/images/47.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/47.jpg)
 
 ## Next up: the microcomputer (aka. microcontroller)
 
-slate/images/48.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/48.jpg)
 
 the microcomputer (aka. microcontroller) socket is also soldered at the back of the MAKERbuino board. Important: be careful how you rotate the socket because it’s not symmetrical. Be sure to place it on the right indicated by a notch on the socket.
 
-slate/images/49.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/49.jpg)
 
 <aside class="notice">**pro tip:** first solder the two diagonal pins of the socket. Then make sure that the socket is aligned with the board nicely, correct the alignment if needed and then solder the rest of the pins</aside>
 
-slate/images/50.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/50.jpg)
 
 ## Find the tiny 10kΩ resistor
 
 Find the tiny 10kΩ resistor (colors: brown, black, red, golden) and solder it to the front side of the board where the R2 mark is (bottom side of the board) - this resistor is necessary for our screen to work.
 
-slate/images/51.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/51.jpg)
 
 <aside class="notice">**Pro tip:** when, you insert the resistor, bend the leads of the resistor so that it doesn’t fall out from the PCB while you’re soldering it</aside>
 
-slate/images/52.jpg
-slate/images/53.jpg
-slate/images/54.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/52.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/53.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/54.jpg)
 
 <aside class="warning">Remember to cut all leads of the components you’ve soldered using your diagonal cutters</aside> 
 
-slate/images/55.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/55.jpg)
 
 
 ## Find the 16MHz crystal
 
 Find the 16MHz crystal and insert it on the front side of the PCB (right side of the PCB, marked Q1, 16MHz)
 
-slate/images/56.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/56.jpg)
 
 Apply the previous pro tip and bend the leads of the crystal at the back of the board.
 
@@ -444,15 +445,15 @@ Apply the previous pro tip and bend the leads of the crystal at the back of the 
 
 Solder the two 22pF ceramic capacitors (little red-ish thingies with the number 22 written on them). Along with the crystal, these are essential for the oscillating circuit of the game console.
 
-slate/images/57.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/57.jpg)
 
 
 ## Slide toggle switches
 
 Slide toggle switches for turning the console ON and OFF and muting the sound. They’re soldered at the bottom side of the PCB and labeled as SWITCH1 & SWITCH2.
 
-slate/images/58.jpg
-slate/images/59.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/58.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/59.jpg)
 
 The left switch is muting the sound adn the right one will turn the console’s power ON & OFF.
 
@@ -460,18 +461,18 @@ The left switch is muting the sound adn the right one will turn the console’s 
 
 Locate the three electrolytic capacitors (tiny black barrels with two leads). These are marked on the PCB as C4, C5 and C7.
 
-slate/images/60.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/60.jpg)
 
 <aside class="warning">these capacitors are polarized, make sure to insert them properly. Polarity of the capacitors are indicated with the big white minus (-) sign on the capacitors (the big white stripe)</aside>
 
-slate/images/61.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/61.jpg)
 
 
 ## MCP1702-3302 3.3V voltage regulator Important:
 
 MCP1702-3302 3.3V voltage regulator Important: this regulator is very similar to the 2n2222 transistor so be sure to read the text on the component carefully and make sure that it says something like “1702-3302”.
 
-slate/images/62.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/62.jpg)
 
 Solder the thing on the board where “IC2 3.3V” is marked. Be careful to turn it on the right side!
 
@@ -479,33 +480,33 @@ Solder the thing on the board where “IC2 3.3V” is marked. Be careful to turn
 
 <aside class="notice">older versions of the MAKERbuino kit had a screen that was soldered directly on the PCB. Now the screen can be easily detached and changed because of the female connector that is soldered first</aside>
 
-slate/images/63.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/63.jpg)
 
 You will have to solder the tiny female connector first and then plug the Nokia screen into the connector. 
 
 <aside class="notice">**Pro tip:** first solder one lead of the bottom connector then check if the screen is aligned properly and corect the allignment if needed. When the connector fits nicely on the board, solder the rest of it’s leads</aside>
 
-slate/images/64.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/64.jpg)
 
 Attach your screen to the socket you've soldered to the PCB.
 
 <aside class="warning">fasten the screen with tiny M2 nuts and bolts. After you've fastened your screen, it will be slightly tilted when compared to the rest of the device. This is completely normal and is nothing to be worried about</aside>
 
-slate/images/65.jpg
-slate/images/66.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/65.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/66.jpg)
 
 ## Li-Po battery and the corresponding connector
 
-slate/images/67.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/67.jpg)
 
 Firstly, we’ll solder the battery’s connector to the pads on the top left back side of the board (labeled “BATTERY”)
 <aside class="notice">**Pro tip:** first apply some solder to the pads and then solder the connector to the pads</aside>
 
-slate/images/68.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/68.jpg)
 
 <aside class="warning">in electronics, certain wire colors are used for labeling the polarity. Color RED is always the positive pole (+) of the power supply and the color BLACK is always representing the negative pole (-) of the power supply</aside>
 
-slate/images/69.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/69.jpg)
 
 ## Insert the ATmega328 microcontroller in the already soldered socket
 
@@ -515,25 +516,25 @@ Find the little black precious microcomputer. Here comes the tricky part:
 
 Firstly, locate the microcontroller’s notch indicating which side to turn it when inserting it in the socket.
 
-slate/images/70.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/70.jpg)
 
 Secondly, DON’T insert the microcontroller straight away. You’ll need to bend the pins a bit. Do this pushing the microcontroller’s pins against the table so that you apply equal force to all pins.
 
-slate/images/71.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/71.jpg)
 
 Check if some of the pins is not bent correctly and correct that. Slowly insert the microcontroller in the socket. If needed, take the chip out and bend the pins some more. The chip fully inserted in the socket looks something like this:
 
-slate/images/72.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/72.jpg)
 
 ## Now we’re going to test if all of our core MAKERbuino parts we’ve just soldered work properly
 
 Connect the battery to the already soldered battery jack.
 
-slate/images/73.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/73.jpg)
 
 Turn the power switch to the left position (ON).
 
-slate/images/74.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/74.jpg)
 
 he screen should turn on and display some text. If that happened, that means all of the components so far work fine and are properly soldered. Don’t worry if your screen is too dim (like mine on the picture above), we’re going to fix that in the settings when we solder the rest of the components. It might also display the text saying “battery low, please turn off”, don’t worry about that.
 
@@ -552,38 +553,38 @@ If the screen is working fine that means that the microcontroller is working and
 
 This resistors is important for connecting the microcontroller to the serial UART programmer board.
 
-slate/images/75.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/75.jpg)
 
 ## Female 6 pin angle header
 
 Locate this black female connector. It’s soldered to the place labeled “JP2, serial programmer”. The serial UART programmer board is connected to this port. Make sure to turn it the right way.
 
-slate/images/76.jpg
-slate/images/77.jpg
-slate/images/78.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/76.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/77.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/78.jpg)
 
 ## Solder the two trim potentiometers labeled TR1 & TR2
 
 The left potentiometer is used for regulating the screen’s backlight and the right one regulates the sound volume.
 
-slate/images/79.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/79.jpg)
 
 <aside class="notice">**Pro tip:** If the trim potentiometers are falling out of the PCB when you try to solder them, place you cutting pliers’ handle underneath the potentiometer you’re soldering</aside>
 
-slate/images/80.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/80.jpg)
 
 ## 6 pin ICPS header & 100nF capacitors
 
 The header is mounted on the top left front side of the PCB (labeled JP1). After the header, find the two little 100nF capacitors (they have 104 written on their surface) and solder them on places labeled with C1 and C6.
 
-slate/images/81.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/81.jpg)
 
 ## Seven pushbuttons and the corresponding button caps
 
 Locate the buttons and then first solder the 5 buttons on the left side of the PCB.
 
-slate/images/82.jpg
-slate/images/83.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/82.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/83.jpg)
 
 ## Now let’s solder the basic parts of the sound circuit:
 
@@ -591,46 +592,46 @@ slate/images/83.jpg
 
 <aside class="warning">be careful to turn the transistor and the diode to the right side! Note the little black ring on the diode indicating how you need to turn the component</aside>
 
-slate/images/84.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/84.jpg)
 
 ## Solder the rest of the buttons
 
 (two buttons at the right side of the PCB)
 
-slate/images/85.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/85.jpg)
 
 ## Mount the Li-Po charger board
 
-slate/images/86.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/86.jpg)
 
 You’ll need a piece of solid core wire included in the kit (NOT the soft standard wire).
 
-slate/images/87.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/87.jpg)
 
 You must remove the insulation of the wire and cut it in 4 even parts.
 
 <aside class="notice">**Pro tip:** use your cutter pliers for this</aside>
 
-slate/images/88.jpg
-slate/images/89.jpg
-slate/images/90.jpg
-slate/images/91.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/88.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/89.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/90.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/91.jpg)
 
 Insert the wire through the charger’s and PCB’s contacts and bend the edges of the non insulated pieces of wire before soldering them.
 
-slate/images/92.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/92.jpg)
 
 ## Two 4.7kΩ resistors
 
 Two 4.7kΩ resistors (color code: yellow, purple, red, golden) and a 100Ω resistor (color code: brown, black, black, golden) - labeled R4, R5 and R6. 4.7kΩ resistors are used as pull up resistors for the i2c ports and the 100Ω resistor is used when outputting the sound signal to the headphone jack.
 
-slate/images/93.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/93.jpg)
 
 ## Yellow i2c multiplayer headers
 
 These are labeled as JP3 and JP4 on the board. Use the pro tip about placing the pliers underneath the component becuse these might be a bit harder to solder.
 
-slate/images/94.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/94.jpg)
 
 ## Solder the speaker
 
@@ -638,10 +639,10 @@ First you have to find the standard soft wire, strip the insulation at it’s en
 
 <aside class="notice">**Pro tip:** strip the insulation with your cutter pliers and twirl the stripped ends of the wire before apllying some solder to it</aside>
 
-slate/images/95.jpg
-slate/images/96.jpg
-slate/images/97.jpg
-slate/images/98.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/95.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/96.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/97.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/98.jpg)
 
 Then apply some solder to the speaker’s contacts and solder the wires to the speaker and to the pads labeled “SPEAKER” on the PCB.
 
@@ -649,8 +650,8 @@ Then apply some solder to the speaker’s contacts and solder the wires to the s
 
 Take a look at the picture to see where the actual soldering points of the speaker are.
 
-slate/images/99.jpg
-slate/images/100.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/99.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/100.jpg)
 
 ## Before turning your soldering iron off
 
@@ -665,21 +666,21 @@ Now that you have everything soldered, connect the battery again, turn the tiny 
 * If you see the low battery error on the screen, press the A button to bypass it
 * go through the checkup wizard and adjust your MAKERbuino’s screen contrast and check if all buttons work properly
 
-slate/images/101.jpg
-slate/images/102.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/101.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/102.jpg)
 
 * save the settings and turn the console OFF
 * insert the SD card
 
-slate/images/103.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/103.jpg)
 
 * turn the console ON and press button C at the main screen, the device will load the games stored on the SD card. You will get this screen:
 
-slate/images/104.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/104.jpg)
 
 <aside class="warning">Don’t panic, loading games from the SD card can take up to 30 seconds, be patient. After the games load you should see something like this:</aside>
 
-slate/images/105.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/105.jpg)
 
 If you passed all of the steps above and everything worked fine and dandy in the checkup wizard, that means you did a good job. Well done!
 
@@ -687,42 +688,42 @@ If you passed all of the steps above and everything worked fine and dandy in the
 
 The last step is to place place the circuitry inside the laser cut casing. You'll need the M3 nuts, bolts and spacers for this. Glue the speaker to the casing using any regular type of glue (our recommendation: use a hot glue gun if possible).
 
-slate/images/106.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/106.jpg)
 
 Now use the screws and spacers to fasten the casing. Note that MAKERbuino's back casing actually consists of two acrylic plates.
 
-slate/images/107.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/107.jpg)
 
 Use a regular screwdriver to fasten the back screws.
 
-slate/images/108.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/108.jpg)
 
 MAKERbuino's front plate is fixated with nuts.
 
-slate/images/109.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/109.jpg)
 
 Back side of a finished MAKERbuino:
 
-slate/images/110.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/110.jpg)
 
 Front side of a finished MAKERbuino:
 
-slate/images/111.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/111.jpg)
 
 **The programmer:** USB to serial UART board is connected to the MAKERbuino as showed on the pictures below. Mind the orientation of the serial adapter (you can check whether you've plugged it in correctly by looking at the pin names labeled at MAKERbuino's PCB and the programmer (the labeled pins should match)).
 
-slate/images/112.jpg
-slate/images/113.jpg
-slate/images/114.jpg
-slate/images/115.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/112.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/113.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/114.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/115.jpg)
 
 We'll talk more about how and what for you can use the programmer board in a "how to program your MAKERbuino" tutorial (still being written... lots of documentation is still WIP (Work In Progress) and we ask for your patience)
 
 
 # If you have a 3D printer, you can even print a custom casing for your MAKERbuino
 
-slate/images/116.jpg
-slate/images/117.jpg
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/116.jpg)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/117.jpg)
 
 
 # Conclusion
