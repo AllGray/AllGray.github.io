@@ -1,3 +1,12 @@
+---
+title: MAKERbuino Build Guide
+
+toc_footers:
+  - <a href='#'>Sign Up at https://community.makerbuino.com for more information</a>
+  - <a href='https://github.com/allgray'>Documentation Powered by Slate</a>
+  
+
+
 # Introduction
 slate/images/648px-MAKERbuino-buildGuide-1.bmp.png
 slate/images/2.png
@@ -99,7 +108,7 @@ R6	| 100ohm resistor	| 1
 X1	| 3.5mm headphone connector socket	| 1
 -	| some thin insulated copper wire (standard and solid core wire)	| 1
 
-**Important: we tend to place some extra spare components in your MAKERbuino kit. Quantity listed in the above table is the absolute minimum of components required for your MAKERbuino to work, you'll probably get some extra...**
+<aside class="warning">Important: we tend to place some extra spare components in your MAKERbuino kit. Quantity listed in the above table is the absolute minimum of components required for your MAKERbuino to work, you'll probably get some extra.</aside>
 
 slate/images/7.jpg
 **If you’re not sure what every of these components looks like, don’t worry. In the following section we’ll analyze the components and their purpose.**
@@ -130,7 +139,7 @@ These basic mechanical components are needed at the end of MAKERbuino assembly p
 
 slate/images/12.jpg
 The included SD card is used for storing games, programs and other useful data on it (game graphics, music etc.). Thanks to this card, you can load multiple on your MAKERbuino. It comes preloaded with lots of fun games downloaded from the games gallery on www.gamebuino.com so that you can try it out right after you assemble it. You might be wondering, why is the SD card’s capacity mere 128 MB? This is an 8-bit gameboy-like gaming device and programs and games for it are approximately 30 kB. 128 MB of space will be more than enough for storing plenty of games, programs and useful info.
-* some older versions of the kit were sold with larger SD cards (1GB or 512MB)
+<aside class="notice">some older versions of the kit were sold with larger SD cards (1GB or 512MB)</aside>
 
 ## SD socket
 slate/images/13.png
@@ -141,7 +150,8 @@ The SD socket is the only surface mount component in the whole device. Don’t l
 slate/images/14.png
 
 This neat little speaker fits at the back side of the device. It has a special place in the back of the casing. It plays a crucial role in producing all the beeps , boops and crazy chiptunes you’ll compose in your very own games.
-* standard diameter of the MAKERbuino speaker is 36mm but some kits came with smaller or larger speakers because we had some problems with getting the sufficient quantities
+
+<aside class="notice">standard diameter of the MAKERbuino speaker is 36mm but some kits came with smaller or larger speakers because we had some problems with getting the sufficient quantities</aside>
 
 ## 650 mAh Li-Po battery & JST connector
 
@@ -154,7 +164,7 @@ The rechargeable battery serves as MAKERbuino’s main power supply. 650mAh is m
 slate/images/16.jpg
 
 This board is connected to MAKERbuino’s serial port (top left black female angle connector). It allows you to program your MAKERbuino directly from your computer and send all sorts of useful data from the computer to the MAKERbuino and vice versa.
-* **Important: Your MAKERbuino kit might come with the blue or red version of this adapter depending on when you bought your kit. Latest kit revision comes with the red adapter. The two serial adapter boards do the same thing. There's more info on how to use this board later in the guide.**
+<aside class="warning">Important: Your MAKERbuino kit might come with the blue or red version of this adapter depending on when you bought your kit. Latest kit revision comes with the red adapter. The two serial adapter boards do the same thing. There's more info on how to use this board later in the guide.</aside>
 
 ## ATmega328P-PU microcontroller & ATmega’s 28 pin socket
 
@@ -166,7 +176,7 @@ The ATmega microcomputer (aka. microcontroller) is the brain of the device. CPU,
 slate/images/18.jpg
 
 The screen module is an LCD screen on a breakout PCB. LCD stands for liquid crystal display. This is a screen that is controlled by the main ATmega microcomputer. It’s a graphical display so you can manipulate every pixel’s color with a program in the microcomputer. The complete module is stacked on the main MAKERbuino PCB. Newer versions of the MAKERbuino kit (version “0.4 beta” and newer) has this screen attached using headers so that you can easily replace the screen if it gets broken. Also, the screen has some magnificent features like high resolution (84x48 pixels monochrome), adjustable LED backlight and great visibility on direct sunlight (the display works in the same way as your calculator’s display - can be viewed without the backlight if there is enough light in the room).
-* **important: new version of the kit come with a female header socket which is first soldered to the PCB before connecting your screen. This way you can easily insert and remove the screen fro the board**
+<aside class="warning">important: new version of the kit come with a female header socket which is first soldered to the PCB before connecting your screen. This way you can easily insert and remove the screen fro the board</aside>
 
 ## TP4056 Li-Po battery charger board
 
@@ -174,7 +184,7 @@ slate/images/19.png
 
 This module is stacked and soldered on the main MAKERbuino board. It contains the components needed for charging the rechargeable Li-Po battery. It’s main thing is the TP4056 charger integrated circuit (the little black chip on the board). It’s regulating voltage and current of electricity inputted by the USB port and feeding it to the Li-Po battery.
 
-* Depending on the version, your MAKERbuino kit might have the mini USB version or the micro USB version of the charger board included (the new ones come with micro USB). USB cables for both versions of the board are easy to find in any electronics store.
+<aside class="notice">Depending on the version, your MAKERbuino kit might have the mini USB version or the micro USB version of the charger board included (the new ones come with micro USB). USB cables for both versions of the board are easy to find in any electronics store.</aside>
 
 ## 3.3V voltage regulator
 
@@ -182,7 +192,7 @@ slate/images/20.jpg
 
 The voltage regulator is one of MAKERbuino’s most important parts. It regulates the voltage from the Li-Po battery to stable 3.3V. We need to do that because the battery’s 3.7V of electricity is just too much for MAKERbuino’s circuitry and would fry the SD card. Most people say, hey this is a transistor… no, this is not a transistor. This exact shape of this 3 tiny 3 leaded black component is called the TO-92 package and it looks the same as the 2n2222 transistor listed below.
 
-* **Important: the only difference between the 2n2222 transistor and this voltage regulator is the text written on the component. The regulator should have MCP1702-3302ET written on it’s surface, whilst the transistor will have 2N2222 written on it’s back. Use a magnifier if needed and check carefully if you have the right component. When soldering the regulator be extra cautious not to accidentally swap it with the transistor.**
+<aside class="warning">Important: the only difference between the 2n2222 transistor and this voltage regulator is the text written on the component. The regulator should have MCP1702-3302ET written on it’s surface, whilst the transistor will have 2N2222 written on it’s back. Use a magnifier if needed and check carefully if you have the right component. When soldering the regulator be extra cautious not to accidentally swap it with the transistor.</aside>
 
 ## 2n2222 general purpose NPN transistor
 
@@ -196,14 +206,14 @@ slate/images/22.jpg
 
 Inside this metallic package is a crystal used in the MAKERbuino’s microcomputer’s oscillator circuit. In other words, MAKERbuino’s neat 16MHz of CPU clock is possible thanks to this component. Standard digital clocks and watches work on the same principle.
 
-* **important: Make sure that your crystal has 16.000 written on it’s package, this means that it’s meant to be used in an oscillating circuit at the frequency of 16 000 kHz = 16 MHz.**
+<aside class="warning">important: Make sure that your crystal has 16.000 written on it’s package, this means that it’s meant to be used in an oscillating circuit at the frequency of 16 000 kHz = 16 MHz.</aside>
 
 ## 1N4148 diode
 
 slate/images/23.jpg
 
 This is a standard diode. It’s used in MAKERbuino’s sound circuit.
-* this is NOT a light emitting diode (LED), it doesn’t light up, it’s used as an essential part of the sound’s circuit amplifier.
+<aside class="notice">this is NOT a light emitting diode (LED), it doesn’t light up, it’s used as an essential part of the sound’s circuit amplifier.</aside>
 
 ## 3 pin toggle switches
 
@@ -229,7 +239,7 @@ slate/images/27.jpg
 
 These capacitors are used as a part of the 16MHz oscillating circuit along with the previously listed crystal. They look similar to the 100nF capacitors so don’t let that trick you. Recognize them by number 22 (symbolizing that they have the capacity of 22pF) written on their surface.
 
-* **Important: You need to have two of these capacitors**
+<aside class="warning">Important: You need to have two of these capacitors</aside>
 
 ## pushbuttons & button caps
 
@@ -237,8 +247,8 @@ slate/images/28.jpg
 
 Nice and clicky big square pushbuttons are pretty self explanatory. They’re MAKERbuino’s essential input devices used for switching menus, changing programs, playing games… Button caps are just simply attached to the button’s top side and can be changed.
 
-* **Important: You need to have 7 pushbuttons and 7 button caps in your package.
-* You can buy some extra button caps online in our shop or in almost every electronics shop by searching for 12x12x7.3mm pushbutton caps
+<aside class="warning">Important: You need to have 7 pushbuttons and 7 button caps in your package</aside>
+<aside class="notice">You can buy some extra button caps online in our shop or in almost every electronics shop by searching for 12x12x7.3mm pushbutton caps</aside>
 
 ## various pin headers and connectors
 
@@ -259,7 +269,7 @@ slate/images/31.jpg
 
 These yellowish connectors go to the top side of the device and are used for connecting expansion modules and other MAKERbuinos or Gamebuinos (multiplayer games!) They’re just like all other connectors but with a special anti-reverse function so that you can’t short circuit your game consoles when connecting them with the multiplayer link cable.
 
-* **Important: you need to have two of these**
+<aside class="warning">Important: you need to have two of these</aside>
 
 4. 2x5 male angle extra breakout header
 slate/images/32.jpg
@@ -272,7 +282,7 @@ slate/images/33.jpg
 
 The tiny wheel potentiometers are very important for regulating the screen’s backlight and dimming the sound volume. The potentiometers have B102 written on their back indicating that they have 1Kohm of resistance (10 * 10^2 ohms).
 
-* **Important: You have two of these included in your kit.**
+<aside class="warning">Important: You have two of these included in your kit</aside>
 
 ## resistors
 
@@ -284,11 +294,11 @@ Resistors that you need to have: - 100 ohm resistor x1 This one is used when out
 
 It should have this color combination: brown, black, brown, golden
 
-* 2k ohm resistor x1 This one is important for driving the transistor in the MAKERbuino’s sound circuit. It should have this color code combination: red, black, black, brown, brown(or golden)
+<aside class="notice">2k ohm resistor x1 This one is important for driving the transistor in the MAKERbuino’s sound circuit. It should have this color code combination: red, black, black, brown, brown(or golden)</aside>
 
-* 4.7k ohm resistor x2 These resistors are used as pull up resistors on i2c lines (multiplayer and exapnsion ports). They should have this color code: yellow, purple, red, golden or yellow, purple, black, brown, brown
+<aside class="notice">4.7k ohm resistor x2 These resistors are used as pull up resistors on i2c lines (multiplayer and exapnsion ports). They should have this color code: yellow, purple, red, golden or yellow, purple, black, brown, brown</aside>
 
-* 10k ohm resistor x2 These are important for driving the LCD screen and connecting the microcontroller to the serial UART programmer (for connecting the MAKERbuino to your computer). Color code: brown, black, black, red, golden(or brown).
+<aside class="notice">10k ohm resistor x2 These are important for driving the LCD screen and connecting the microcontroller to the serial UART programmer (for connecting the MAKERbuino to your computer). Color code: brown, black, black, red, golden(or brown)</aside>
 
 ## why are there tiny pieces of wire inside?
 
@@ -362,7 +372,7 @@ slate/images/44.jpg
 [Sprakfun's video soldering tutorial](https://www.youtube.com/watch?v=f95i88OSWB4) - Another well made how-to-solder video tutorial.
 [Sparkfun's standard soldering tutorial](https://learn.sparkfun.com/tutorials/how-to-solder---through-hole-soldering) - Well written tutorial made by Sparkfun
 
-## motivational tip from Albert Gajšak (the creator of MAKERbuino):
+## Motivational tip from Albert Gajšak (the creator of MAKERbuino):
 
 Soldering is an essential skill if you want to become an electronics ninja one day. Don't get frustrated by soldering failure, it's just a matter of practice. You'll get better in it over time soldering kits like MAKERbuino and other fun projects you decide to make. Good luck with your kit, try to do your best. In the worst case scenario, if you tried everything and still can't make your kit work, together we'll make your creation work.
 
@@ -370,7 +380,7 @@ Soldering is an essential skill if you want to become an electronics ninja one d
 
 Ok, now you have the required tools and you’ve read the previous section and checked that you have all the parts needed. Let’s get down to business!
 
-**pro tip:** we suggest that you build the MAKERbuino when you’re fresh because the proces of assembly can take up to 2.5 or even 3.5 hours depending on your soldering skills (in other words, don’t start building it in 2AM)
+<aside class="notice">**pro tip:** we suggest that you build the MAKERbuino when you’re fresh because the proces of assembly can take up to 2.5 or even 3.5 hours depending on your soldering skills (in other words, don’t start building it in 2AM)</aside>
 
 We divided the process of assembly in a few main steps and we’ll guide you throughout the assembly methodically.
 
@@ -396,7 +406,7 @@ the microcomputer (aka. microcontroller) socket is also soldered at the back of 
 
 slate/images/49.jpg
 
-**pro tip:** first solder the two diagonal pins of the socket. Then make sure that the socket is aligned with the board nicely, correct the alignment if needed and then solder the rest of the pins.
+<aside class="notice">**pro tip:** first solder the two diagonal pins of the socket. Then make sure that the socket is aligned with the board nicely, correct the alignment if needed and then solder the rest of the pins</aside>
 
 slate/images/50.jpg
 
@@ -406,13 +416,13 @@ Find the tiny 10kΩ resistor (colors: brown, black, red, golden) and solder it t
 
 slate/images/51.jpg
 
-**Pro tip:** when, you insert the resistor, bend the leads of the resistor so that it doesn’t fall out from the PCB while you’re soldering it.
+<aside class="notice">**Pro tip:** when, you insert the resistor, bend the leads of the resistor so that it doesn’t fall out from the PCB while you’re soldering it</aside>
 
 slate/images/52.jpg
 slate/images/53.jpg
 slate/images/54.jpg
 
-* **Important:** Remember to cut all leads of the components you’ve soldered using your diagonal cutters
+<aside class="warning">Remember to cut all leads of the components you’ve soldered using your diagonal cutters</aside> 
 
 slate/images/55.jpg
 
@@ -448,7 +458,7 @@ Locate the three electrolytic capacitors (tiny black barrels with two leads). Th
 
 slate/images/60.jpg
 
-* **Important:** these capacitors are polarized, make sure to insert them properly. Polarity of the capacitors are indicated with the big white minus (-) sign on the capacitors (the big white stripe).
+<aside class="warning">these capacitors are polarized, make sure to insert them properly. Polarity of the capacitors are indicated with the big white minus (-) sign on the capacitors (the big white stripe)</aside>
 
 slate/images/61.jpg
 
@@ -463,17 +473,19 @@ Solder the thing on the board where “IC2 3.3V” is marked. Be careful to turn
 
 ## Nokia 5110 LCD screen
 
-* older versions of the MAKERbuino kit had a screen that was soldered directly on the PCB. Now the screen can be easily detached and changed because of the female connector that is soldered first.
+<aside class="notice">older versions of the MAKERbuino kit had a screen that was soldered directly on the PCB. Now the screen can be easily detached and changed because of the female connector that is soldered first</aside>
 
 slate/images/63.jpg
 
 You will have to solder the tiny female connector first and then plug the Nokia screen into the connector. 
-**Pro tip:** first solder one lead of the bottom connector then check if the screen is aligned properly and corect the allignment if needed. When the connector fits nicely on the board, solder the rest of it’s leads.
+
+<aside class="notice">**Pro tip:** first solder one lead of the bottom connector then check if the screen is aligned properly and corect the allignment if needed. When the connector fits nicely on the board, solder the rest of it’s leads</aside>
 
 slate/images/64.jpg
 
 Attach your screen to the socket you've soldered to the PCB.
-* **important:** fasten the screen with tiny M2 nuts and bolts. After you've fastened your screen, it will be slightly tilted when compared to the rest of the device. This is completely normal and is nothing to be worried about.
+
+<aside class="warning">fasten the screen with tiny M2 nuts and bolts. After you've fastened your screen, it will be slightly tilted when compared to the rest of the device. This is completely normal and is nothing to be worried about</aside>
 
 slate/images/65.jpg
 slate/images/66.jpg
@@ -483,11 +495,11 @@ slate/images/66.jpg
 slate/images/67.jpg
 
 Firstly, we’ll solder the battery’s connector to the pads on the top left back side of the board (labeled “BATTERY”)
-* **Pro tip:** first apply some solder to the pads and then solder the connector to the pads
+<aside class="notice">**Pro tip:** first apply some solder to the pads and then solder the connector to the pads</aside>
 
 slate/images/68.jpg
 
-**Important:** in electronics, certain wire colors are used for labeling the polarity. Color RED is always the positive pole (+) of the power supply and the color BLACK is always representing the negative pole (-) of the power supply.
+<aside class="warning">in electronics, certain wire colors are used for labeling the polarity. Color RED is always the positive pole (+) of the power supply and the color BLACK is always representing the negative pole (-) of the power supply</aside>
 
 slate/images/69.jpg
 
@@ -495,7 +507,7 @@ slate/images/69.jpg
 
 Find the little black precious microcomputer. Here comes the tricky part:
 
-**Important:** Most common mistake that people do with the microcontroller is that they either insert it in the socket wrongly or break the microcontroller’s tiny pins in the process of inserting it. Don’t worry, it just need a tiny bit of caution and concentration (don’t hurry with this one):
+<aside class="warning">Most common mistake that people do with the microcontroller is that they either insert it in the socket wrongly or break the microcontroller’s tiny pins in the process of inserting it. Don’t worry, it just need a tiny bit of caution and concentration (don’t hurry with this one):</aside>
 
 Firstly, locate the microcontroller’s notch indicating which side to turn it when inserting it in the socket.
 
@@ -552,7 +564,7 @@ The left potentiometer is used for regulating the screen’s backlight and the r
 
 slate/images/79.jpg
 
-**Pro tip:** If the trim potentiometers are falling out of the PCB when you try to solder them, place you cutting pliers’ handle underneath the potentiometer you’re soldering.
+<aside class="notice">**Pro tip:** If the trim potentiometers are falling out of the PCB when you try to solder them, place you cutting pliers’ handle underneath the potentiometer you’re soldering</aside>
 
 slate/images/80.jpg
 
@@ -573,7 +585,7 @@ slate/images/83.jpg
 
 2n2222 transistor, 2.2kΩ resistor (color code: red, red, red, golden), 1n4148 diode and the headphone connector.
 
-**Important:** be careful to turn the transistor and the diode to the right side! Note the little black ring on the diode indicating how you need to turn the component.
+<aside class="warning">be careful to turn the transistor and the diode to the right side! Note the little black ring on the diode indicating how you need to turn the component</aside>
 
 slate/images/84.jpg
 
@@ -593,7 +605,7 @@ slate/images/87.jpg
 
 You must remove the insulation of the wire and cut it in 4 even parts.
 
-**Pro tip:** use your cutter pliers for this
+<aside class="notice">**Pro tip:** use your cutter pliers for this</aside>
 
 slate/images/88.jpg
 slate/images/89.jpg
@@ -620,7 +632,7 @@ slate/images/94.jpg
 
 First you have to find the standard soft wire, strip the insulation at it’s ends and apply some solder to the freshly stripped ends.
 
-**Pro tip:** strip the insulation with your cutter pliers and twirl the stripped ends of the wire before apllying some solder to it.
+<aside class="notice">**Pro tip:** strip the insulation with your cutter pliers and twirl the stripped ends of the wire before apllying some solder to it</aside>
 
 slate/images/95.jpg
 slate/images/96.jpg
@@ -629,7 +641,7 @@ slate/images/98.jpg
 
 Then apply some solder to the speaker’s contacts and solder the wires to the speaker and to the pads labeled “SPEAKER” on the PCB.
 
-**Important:** You don’t have to care about the polarity on this one, the speakers that are included are not polarized.
+<aside class="warning">You don’t have to care about the polarity on this one, the speakers that are included are not polarized</aside>
 
 Take a look at the picture to see where the actual soldering points of the speaker are.
 
@@ -661,7 +673,7 @@ slate/images/103.jpg
 
 slate/images/104.jpg
 
-**Important:** Don’t panic, loading games from the SD card can take up to 30 seconds, be patient. After the games load you should see something like this:
+<aside class="warning">Don’t panic, loading games from the SD card can take up to 30 seconds, be patient. After the games load you should see something like this:</aside>
 
 slate/images/105.jpg
 
