@@ -10,11 +10,11 @@ toc_footers:
 
 # Introduction
 
-!(https://raw.githubusercontent.com/AllGray/slate/master/images/648px-MAKERbuino-buildGuide-1.bmp.png)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/648px-MAKERbuino-buildGuide-1.bmp.png)
 
-!(https://raw.githubusercontent.com/AllGray/slate/master/images/2.png)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/2.png)
 
-!(https://raw.githubusercontent.com/AllGray/slate/master/images/3.png)
+![image](https://raw.githubusercontent.com/AllGray/slate/master/images/3.png)
 
 # General description
 
