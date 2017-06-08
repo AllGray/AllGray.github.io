@@ -7,6 +7,7 @@ toc_footers:
   - <a href='https://github.com/allgray'>Documentation converted by Mathias "AllGray" Thur</a>
   
 search: true
+rightHandPanel: false
   
 ---
 
