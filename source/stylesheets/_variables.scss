@@ -83,6 +83,12 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
   line-height: 1.5;
 }
 
+// Center Images with code
+////////////////////
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
 
 // OTHER
 ////////////////////
