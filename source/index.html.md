@@ -10,7 +10,7 @@ search: true
   
 ---
 
-# Introduction
+# <p style="text-align: center;"> Introduction </p>
 
 ![image](https://raw.githubusercontent.com/AllGray/slate/master/images/648px-MAKERbuino-buildGuide-1.bmp.png)
 
